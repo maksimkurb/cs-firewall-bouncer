@@ -18,6 +18,8 @@ def _goarch(goos):
     yield 'amd64'
     yield 'arm'
     yield 'arm64'
+    yield 'mips'
+    yield 'mipsel'
     if goos == 'linux':
         yield 'ppc64le'
         yield 's390x'
